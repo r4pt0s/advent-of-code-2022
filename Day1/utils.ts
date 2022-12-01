@@ -5,11 +5,11 @@ const sum = (numbers:string[]) => {
 export const elvesCalories = (input:string) =>
     input
         .split(/\n\n/gm)
-        .reduce((high:number[], elf:string) => {
+        .reduce((elvesCalories:number[], elf:string) => {
             const cal:number = sum(elf.split(/\n/gm));
 
-            high.push(cal);
+            elvesCalories.push(cal);
 
-            return high;
+            return elvesCalories;
         }, [])
         .sort((a, b) => (a > b ? -1 : 1));
