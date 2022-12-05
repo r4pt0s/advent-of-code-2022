@@ -7,7 +7,10 @@
     "day1": " npx tsc --outDir ./Day1/dist/ ./Day1/index.ts && cp ./Day1/input.txt ./Day1/dist && node ./Day1/dist/index.js",
     "test:day1": "jest -t Day1",
     "day2": " npx tsc --outDir ./Day2/dist/ ./Day2/index.ts && cp ./Day2/input.txt ./Day2/dist && node ./Day2/dist/index.js",
-    "test:day2": "jest -t Day2"  },
+    "test:day2": "jest -t Day2",
+    "day3": " npx tsc --outDir ./Day3/dist/ ./Day3/index.ts && cp ./Day3/input.txt ./Day3/dist && node ./Day3/dist/index.js",
+    "test:day3": "jest -t Day3"
+  },
   "author": "Wolfgang Kreminger",
   "license": "MIT",
   "devDependencies": {
