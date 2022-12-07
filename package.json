@@ -1,31 +1,33 @@
 {
-  "name": "advent-of-code-2022",
-  "version": "1.0.0",
-  "description": "Solutions for Advent of Code 2022",
-  "main": "index.js",
-  "scripts": {
-    "day1": " npx tsc --outDir ./Day1/dist/ ./Day1/index.ts && cp ./Day1/input.txt ./Day1/dist && node ./Day1/dist/index.js",
-    "test:day1": "jest -t Day1",
-    "day2": " npx tsc --outDir ./Day2/dist/ ./Day2/index.ts && cp ./Day2/input.txt ./Day2/dist && node ./Day2/dist/index.js",
-    "test:day2": "jest -t Day2",
-    "day3": " npx tsc --outDir ./Day3/dist/ ./Day3/index.ts && cp ./Day3/input.txt ./Day3/dist && node ./Day3/dist/index.js",
-    "test:day3": "jest -t Day3",
-    "day4": " npx tsc --outDir ./Day4/dist/ ./Day4/index.ts && cp ./Day4/input.txt ./Day4/dist && node ./Day4/dist/index.js",
-    "test:day4": "jest -t Day4",
-    "day5": " npx tsc --lib \"ES2021\" --outDir ./Day5/dist/ ./Day5/index.ts && cp ./Day5/input.txt ./Day5/dist && node ./Day5/dist/index.js",
-    "test:day5": "jest -t Day5",
-    "day6": " npx tsc --outDir ./Day6/dist/ ./Day6/index.ts && cp ./Day6/input.txt ./Day6/dist && node ./Day6/dist/index.js",
-    "test:day6": "jest -t Day6"
-  },
-  "author": "Wolfgang Kreminger",
-  "license": "MIT",
-  "devDependencies": {
-    "@types/jest": "^29.2.3",
-    "jest": "^29.3.1",
-    "ts-jest": "^29.0.3",
-    "typescript": "^4.9.3"
-  },
-  "dependencies": {
-    "@types/node": "^18.11.10"
-  }
+    "name": "advent-of-code-2022",
+    "version": "1.0.0",
+    "description": "Solutions for Advent of Code 2022",
+    "main": "index.js",
+    "scripts": {
+        "day1": " npx tsc --outDir ./Day1/dist/ ./Day1/index.ts && cp ./Day1/input.txt ./Day1/dist && node ./Day1/dist/index.js",
+        "test:day1": "jest -t Day1",
+        "day2": " npx tsc --outDir ./Day2/dist/ ./Day2/index.ts && cp ./Day2/input.txt ./Day2/dist && node ./Day2/dist/index.js",
+        "test:day2": "jest -t Day2",
+        "day3": " npx tsc --outDir ./Day3/dist/ ./Day3/index.ts && cp ./Day3/input.txt ./Day3/dist && node ./Day3/dist/index.js",
+        "test:day3": "jest -t Day3",
+        "day4": " npx tsc --outDir ./Day4/dist/ ./Day4/index.ts && cp ./Day4/input.txt ./Day4/dist && node ./Day4/dist/index.js",
+        "test:day4": "jest -t Day4",
+        "day5": " npx tsc --lib \"ES2021\" --outDir ./Day5/dist/ ./Day5/index.ts && cp ./Day5/input.txt ./Day5/dist && node ./Day5/dist/index.js",
+        "test:day5": "jest -t Day5",
+        "day6": " npx tsc --outDir ./Day6/dist/ ./Day6/index.ts && cp ./Day6/input.txt ./Day6/dist && node ./Day6/dist/index.js",
+        "test:day6": "jest -t Day6",
+        "day7": " npx tsc && cp ./Day7/input.txt ./dist/Day7 && node ./dist/Day7/index.js",
+        "test:day7": "jest -t Day7"
+    },
+    "author": "Wolfgang Kreminger",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/jest": "^29.2.3",
+        "jest": "^29.3.1",
+        "ts-jest": "^29.0.3",
+        "typescript": "^4.9.3"
+    },
+    "dependencies": {
+        "@types/node": "^18.11.10"
+    }
 }
